@@ -1,0 +1,42 @@
+/* Styling untuk navbar */
+.custom-navbar {
+    background-color: #00a5d2;
+    padding: 0.5rem 1rem;
+  }
+  
+  .navbar-brand img {
+    border-radius: 50%; /* Logo bulat */
+  }
+  
+  .navbar-nav .nav-link {
+    color: #ffffff;
+    font-weight: bold;
+    margin: 0 15px;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    text-decoration: underline;
+  }
+  
+  .signout-btn {
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  .signout-btn:hover {
+    text-decoration: none;
+    color: #007bff; /* Warna hover biru */
+  }
+  
+  /* Responsif */
+  @media (max-width: 768px) {
+    .navbar-nav {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .signout-btn {
+      text-align: center;
+    }
+  }
+  

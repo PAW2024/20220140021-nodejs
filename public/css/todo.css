@@ -1,0 +1,47 @@
+    /* Styling khusus */
+    .card {
+        transition: transform 0.2s ease-in-out;
+        text-align: center;
+      }
+  
+      .card:hover {
+        transform: scale(1.05);
+      }
+  
+      .add-btn {
+        margin-bottom: 20px;
+      }
+  
+      .todo-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* 3 card per baris */
+        gap: 20px; /* Jarak antar card */
+      }
+    
+      
+      .add-btn-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    
+      /* Untuk tombol Edit dan Delete agar memiliki ukuran sama dan berada di tengah kartu */
+      .card-body {
+        display: row;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+    
+      .card-body button {
+        width: 80px; /* Ukuran tombol seragam */
+        margin: 5px 0; /* Memberi jarak antar tombol */
+      }
+
+      .footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%; /* Pastikan footer memenuhi lebar layar */
+        background-color: #f8f9fa; /* Warna background */
+        box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Tambahkan bayangan halus */
+      }
